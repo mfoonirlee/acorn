@@ -26656,6 +26656,19 @@ test("if(1)/  foo/", {
   ]
 });
 
+test("____underline", {
+  type: "Program",
+  body: [
+    {
+      type: "ExpressionStatement",
+      expression: {
+        type: "Identifier",
+        name: "____underline",
+      }
+    }
+  ]
+});
+
 test("price_9̶9̶_89", {
   type: "Program",
   body: [
